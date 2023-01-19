@@ -8,6 +8,8 @@
     <artifactId>JavaMavenKenkins</artifactId>
     <version>1.0-SNAPSHOT</version>
 	
+	
+	
 	<build> 
 		<finalName>JavaJarJenkins</finalName>
 	</build>
