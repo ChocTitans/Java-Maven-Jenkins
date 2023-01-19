@@ -1,4 +1,7 @@
 FROM openjdk:8
+WORKDIR /work/
+
+COPY target/*.jar /work/javajarjenkins.jar
+
 EXPOSE 8080
-ADD /target/JavaJarJenkins.jar JavaJarJenkins.jar
-ENTRYPOINT ["java","-jar","JavaJarJenkins.jar"]
+CMD ["java","-jar","javajarjenkins.jar"]
